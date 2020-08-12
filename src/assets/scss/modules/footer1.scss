@@ -4,7 +4,6 @@
     
     .footer_inner {
         box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
-        width: 1440px;
         padding: 100px 140px 120px;
         display: flex;
         justify-content: space-between;
@@ -55,6 +54,20 @@
     }
     .footer_bottom {
         margin-top: 1px;
-        box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);;
+        height: 70px;
+        box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 140px;
+        .copyright {
+            margin: auto 0;
+        }
+        .socials {
+            display: flex;
+            margin: auto 0;
+            .icon {
+                margin-right: 20px;
+            }
+        }
     }
 }

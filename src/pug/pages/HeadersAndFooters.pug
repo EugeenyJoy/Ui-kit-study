@@ -1,0 +1,33 @@
+doctype html
+html
+head
+    
+    block head
+.wrapper.HeadersAndFooters
+    .subLogo
+        include ../..//assets/img/subLogo.svg
+
+
+    //- импорт header1
+    include ../includes/modules/headers/header1.pug
+
+    .separate40
+   
+    //- импорт header2
+    include ../includes/modules/headers/header2.pug 
+
+    .separate40
+
+    //- импорт footer1
+    include ../includes/modules/footers/footer1.pug
+
+    .separate40
+
+    //-     //- импорт footer2
+    //- include ../includes/modules/footers/footer2.pug
+        //-include ../../modules/FormElements/FormElements.pug
+     
+            
+
+block script
+    script(type="text/javascript")

@@ -1,0 +1,48 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/typography";
+@import "../css/reset.css";
+@import "../css/grid.css";
+
+html {
+  min-width: 320px;
+}
+
+body {
+  line-height: $mainLineHeight;
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+  font-family: $mainFont;
+	font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.separate40 {
+  height: 40px;
+}
+
+// Modules
+@import "modules/header1.scss";
+@import "modules/header2.scss";
+@import "modules/footer1.scss";
+@import "modules/footer2.scss";
+@import "modules/elements.scss";
+@import "modules/HeadersAndFooters.scss";

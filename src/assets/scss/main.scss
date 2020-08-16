@@ -35,9 +35,14 @@ body {
   min-width: 320px;
 }
 
+.logo{
+  height: 40px;
+}
+
 .separate40 {
   height: 40px;
 }
+
 
 // Modules
 @import "modules/header1.scss";

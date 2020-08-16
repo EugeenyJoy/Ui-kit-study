@@ -7,7 +7,7 @@
 
     .header_inner {
         width: 1440px;
-        padding: 0 140px;
+        padding: 0 70px 0 140px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -21,7 +21,7 @@
                     li {
                         display: inline-block;
                         line-height: 17px;
-                        margin-right: 20px;
+                        margin-right: 23px;
                         a {
                             color: $dark50;
                         }

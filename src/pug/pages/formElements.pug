@@ -4,11 +4,60 @@ head
     
     block head
 .wrapper.formElements
+    .subLogo
+            include ../..//assets/img/subLogo.svg
     .col
-        //- импорт Text Field
+        //- Text Field
+        .element_container
+            .elemTitle_container
+                h4 Text Field
+                .elemSubtitle Default
+            .element
+            include ../includes/modules/formElements/textField.pug
 
-         //- импорт subscription text field
-        include ../includes/modules/formElements/subscriptionTextField.pug
+        //- Text Field hover/focus
+        .element_container
+            .elemTitle_container
+                h4 Text Field
+                .elemSubtitle Hover / Focus
+            .element
+            include ../includes/modules/formElements/textField_HovFoc.pug
+
+        //- Dropdown
+        .element_container
+            .elemTitle_container
+                h4 Dropdown
+                .elemSubtitle Default
+            .element
+            include ../includes/modules/formElements/Dropdown.pug
+
+        div(style="display:flex;")
+            //- date_dropdown
+            .element_container
+                .elemTitle_container
+                    h4 date Dropdown
+                .element
+                include ../includes/modules/formElements/date_dropdown.pug
+
+            //- dateNum_dropdown
+            .element_container(style="margin-left: 20px;")
+                .elemTitle_container
+                    h4 date Dropdown
+                .element
+                include ../includes/modules/formElements/dateNum_dropdown.pug
+
+        //- filter date dropdown
+        .element_container
+            .elemTitle_container
+                h4 filter date dropdown
+            .element
+            include ../includes/modules/formElements/filter_date_dropdown.pug
+
+        //- subscription text field
+        .element_container
+            .elemTitle_container
+                h4 subscription text field
+            include ../includes/modules/formElements/subscriptionTextField.pug
 
     .separate40
    

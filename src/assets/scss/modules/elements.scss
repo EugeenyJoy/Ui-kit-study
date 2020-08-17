@@ -1,13 +1,158 @@
-.subscriptionTextField_wrapper {
-    display: inline-block;
-    position: relative;
-    input {
-        width: 267px;
+.formElements {
+    padding: 0px 141px 152px 140px;
+    display: flex;
+    .subLogo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .col {
+        margin-top: 143px;
+        .element_container {
+            margin-bottom: 20px;
+            .elemTitle_container {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+                h4 {
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+                    color: $dark100;
+                }
+                .elemSubtitle {
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+                    color: $dark50;
+                }
+                .element {
+
+                }
+            }
+        }
+    }
+    .col:nth-child(2) {
+        margin: 143px 72px 0 126px;
+    }
+}
+
+    input, .dropdown {
+        width: 320px;
         height: 44px;
-        border: 1px solid rgba(31, 32, 65, 0.25);
+        border: 1px solid $dark25;
         box-sizing: border-box;
         border-radius: 4px;
         padding: 12px 15px 8px;
+        color: $dark75;
+    }
+
+.textField_wrapper {
+    display: inline-block;
+    position: relative;
+    max-width: 320px;
+}
+
+.textField_HovFoc_wrapper {
+    display: inline-block;
+    position: relative;
+    max-width: 320px;
+
+    input {
+        border: 1px solid $dark50;
+        color: $dark75;
+    }
+
+
+}
+
+.dropdown_wrapper {
+    position: relative;
+    .dropdown {
+        li {
+            color: $dark75;
+        }
+    }
+    svg {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+}
+
+.date_dropdown_wrapper {
+    position: relative;
+    width: 150px;
+    .date_dropdown {
+        width: 150px;
+        height: 44px;
+        border: 1px solid $dark25;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 12px 15px 8px;
+        color: $dark75;
+        li {
+            color: $dark75;
+        }
+    }
+    svg {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+}
+
+.dateNum_dropdown_wrapper {
+    position: relative;
+    width: 150px;
+    .dateNum_dropdown {
+        width: 150px;
+        height: 44px;
+        border: 1px solid $dark25;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 12px 15px 8px;
+        color: $dark75;
+        li {
+            color: $dark75;
+        }
+    }
+    svg {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+}
+
+.filterDateDropdown_wrapper {
+    position: relative;
+    width: 266px;
+    .filterDateDropdown {
+        width: 266px;
+        height: 44px;
+        border: 1px solid $dark25;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 12px 15px 8px;
+        color: $dark75;
+        li {
+            color: $dark75;
+        }
+    }
+    svg {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+}
+
+.subscriptionTextField_wrapper {
+    display: inline-block;
+    position: relative;
+    max-width: 320px;
+    input {
+        width: 267px;
     }
     svg {
         position: absolute;

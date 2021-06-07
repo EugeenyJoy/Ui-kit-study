@@ -45,9 +45,9 @@ body {
 
 
 // Modules
-@import "modules/header1.scss";
-@import "modules/header2.scss";
-@import "modules/footer1.scss";
-@import "modules/footer2.scss";
-@import "modules/elements.scss";
+@import "../../pug/includes/modules/headers/header1/header1.scss";
+@import "../../pug/includes/modules/headers/header2/header2.scss";
+@import "../../pug/includes/modules/footers/footer1/footer1.scss";
+@import "../../pug/includes/modules/footers/footer2/footer2.scss";
+@import "../../pug/includes/modules/formElements/elements.scss";
 @import "modules/HeadersAndFooters.scss";
